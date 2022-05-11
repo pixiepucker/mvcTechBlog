@@ -1,8 +1,6 @@
 async function deleteFormHandler(event) {
-  //prevent default action
   event.preventDefault();
 
-  //find attribute
   const id = window.location.toString().split('/')[
     window.location.toString().split('/').length - 1
   ];

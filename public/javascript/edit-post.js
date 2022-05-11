@@ -3,8 +3,8 @@ async function editFormHandler(event) {
   event.preventDefault();
 
   //find attributes
-  const title = document.querySelector('input[name="post-title"]').value.trim();
-  const body = document.querySelector('input[name="post-body"]').value.trim();
+  const title = document.querySelector('input[name="post-title"]').value;
+  const body = document.querySelector('input[name="post-body"]').value;
   const id = window.location.toString().split('/')[
     window.location.toString().split('/').length - 1
   ];
