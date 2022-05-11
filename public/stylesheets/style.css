@@ -6,26 +6,26 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #333;
   }
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: #0e7716;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: #2b9834;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #0e7716;
     border: 0;
     padding: 1%;
-    color: white;
+    color: #dfffe2;
     font-weight: bold;
     transition: background-color .1s;
     cursor: pointer;
@@ -33,7 +33,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: #2b9834;
   }
   
   .post-list {
@@ -49,7 +49,7 @@
   
   textarea:focus, input:focus {
     outline: none;
-    border: 1px solid #3486eb;
+    border: 1px solid #0e7716;
   }
   
   textarea {
@@ -97,7 +97,7 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: #0e7716;
     font-size: 100%;
     font-weight: bold;
     transition: color .1s;
@@ -106,7 +106,7 @@
   
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: #2b9834;
   }
   
   .delete-post-btn {

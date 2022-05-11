@@ -2,8 +2,10 @@
   <div class="title">
     <h3>{{title}}</h3>
     <p>{{body}}</p>
+    <span>User: {{user.username}}</span>
   </div>
   <div class="meta">
     <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+
   </div>
 </article>
