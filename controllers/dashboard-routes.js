@@ -37,7 +37,7 @@ router.get('/', withAuth, (req, res) => {
     });
 });
 
-//edit post by id
+//get edit post by id
 router.get('/edit/:id', withAuth, (req, res) => {
   Post.findByPk(req.params.id, {
     attributes: ['id', 'title', 'body', 'created_at'],
